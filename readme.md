@@ -31,10 +31,21 @@ Finally, we create a timer to make the ViewPager2 scroll to the next item automa
 
 ## Usage
 
-import the library:
+Add this to your root `build.gradle` at the end of repositories:
 
 ```groovy
+allprojects {
+    repositories {
+        //...
+        maven { url 'https://jitpack.io' }
+    }
+}
+``` 
 
+Import the library:
+
+```groovy
+implementation 'com.github.michaellee123:VPBanner:latest_version'// see the latest version on the badge that the top of this document
 ```
 
 Add this to your module's `build.gradle`:
