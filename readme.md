@@ -1,5 +1,7 @@
 # VPBanner
 
+![the latest version](https://jitpack.io/v/michaellee123/VPBanner.svg)
+
 This is a library for creating banners with ViewPager2.
 
 ## Working Principle
