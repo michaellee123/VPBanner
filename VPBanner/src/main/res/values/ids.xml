@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="infinite_page_change_callback" type="id" />
+    <item name="ignore_next_event" type="id" />
+    <item name="need_ignore_next_event" type="id" />
+    <item name="ignore_all_event" type="id" />
+    <item name="infinite_timer" type="id" />
+</resources>
