@@ -52,7 +52,7 @@ fun <T, K : ViewBinding> ViewPager2.setInfiniteAdapter(
                 ignoreAllEvent = true
                 ignoreNextEvent = true
             }
-            MotionEvent.ACTION_UP -> {
+            MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
                 ignoreAllEvent = false
             }
         }
