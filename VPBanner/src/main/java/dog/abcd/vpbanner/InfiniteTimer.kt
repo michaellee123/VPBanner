@@ -6,7 +6,7 @@ import android.os.Looper
 class InfiniteTimer(val delay: Long, private val run: () -> Unit) {
 
     val handler = Handler(Looper.getMainLooper())
-    val runnable = {
+    val runnable = Runnable {
         start()
         run()
     }
